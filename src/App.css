@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.maindiv{
+  width:100%;
+  background-color: rgb(196, 225, 227);
+  height:700px;
+}
+.mainHeading{
+  padding: 10px 10px;
+  color: black;
+}
+.secondDiv{
+  width: calc(100% - 20px);
+  height:50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color:#ffff;
+  border-radius: 10px;
+  display: flex; 
+  align-items: center;
+}
+.secondHeading{
+  color: black;
+  font-size: 20px;
+  font-weight:bold;
+  margin-left: 20px;
+}
+.link{
+  color: blue;
+  font-size: 20px;
+  font-weight:bold;
+}
+.newFormdiv{
+  position: absolute;
+  left: 88%;
+}
+.tablediv{
+  width: calc(100% - 20px);
+  margin: 10px 10px;
+  background-color:#ffff;
+}
+.inputBox{
+  width: 250px;
+  margin-left: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.buttonContainer{
+  display: flex;
+  gap: 20px;
+}
+input[type="number"] {
+  width:200px;
+}
+.multiplierDiv{
+  width: calc(100% - 20px);
+  margin: 10px 10px;
+  background-color:#ffff;
+}
+.addButton{
+  width: 200px;
+}
